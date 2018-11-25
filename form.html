@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html> 
+<html lang="en"
+<head> 
+     <title> Form</title>
+     <link rel="stylesheet" type="text/css" href="style1.css">
+     <meta name="viewport" content="device-width-device" intial-scale="0.1"> 
+</head>
+<body class="body home home-page">
+  	
+        <div class="wrapper"><!-- // Wrapper for all the content-->
+    	    <div class="content"> <!--// container that contains all the content-->  
+      	       <div class="main"><!-- // main, contains the primary content of our page-->
+			   
+                  <div class="signoff-form-container">
+				  
+            	      <form name="signoff_form" class="form signoff-form" id="signoff-form" method="POST" action="SELF">
+					       
+						 <div class="head"><h1> Registration form</h1></div>
+					     <div class="form">
+              	                <label for="first-name">First Name</label>
+				                <input type="text" name="first_name" id="first-name" class="form-field first-name" value="" placeholder="First Name"/>
+                         </div>
+				   
+				   
+				       <div class="form">
+				            <label for="last-name">Last Name</label>
+						    <input type="text" name="last_name" id="last-name" class="form-field last-name" value="" placeholder="Last-name"/>
+                     </div>
+					  
+					<div class="form">
+						 <label for="email">Email</label>
+						 <input type="email" name="email" id="email" class="form-field email" value="" 
+						 placeholder="Email Address"/>
+                     </div>
+						
+					<div class="form">
+						<label for="password">password</label>
+						<input type="password" name="password" id="password" class="form-field password" value=""placeholder="Enter Password">
+						
+					</div>
+					
+					<div class="form">
+						<label for="password">confirm_password</label>
+						<input type="password" name="confirm _password" id="confirm-password"
+						class="form-field confirm-password" 
+						value="" placeholder="Confirm Password"/> 
+				</div>		
+						
+					<div class="form">
+						<label for="number">Phone</label>
+						<input type="text" name="phone_number" id="phone-number" class="form-field Phone-number" value="" placeholder="Enter phone Number"/>
+					</div>	
+						
+                    <div class="form">
+			            <label for="birthday">birthday</label>
+						<input type="date" name="birthday" id="birthday" class="form-feild birthday" value="" placeholder="Select the birthday"/> 
+				    </div>		
+						 
+					<div class="form">	 
+						 <label for="gender">gender</label>
+						 
+						<label for="male">male</label>
+						<input type="radio" id="male" name="gender" class="form-field gender" value="male"/> 
+						 
+						 
+						 <label for="female">female</label>
+						 <input type="radio" name="gender"  id="female" class="form-field gender" value="female"/>
+						 
+						 
+						 <label for="other">other</label>
+						<input type="radio" name="gender" id="other"  class="form-field gender" value="other"/>   
+					</div>
+					
+				<div class="form">
+						 <label>Qualification</label>
+						 <label for="10th">10th</label>
+						 <input type="checkbox" name="qualification" id="10th value="10th" class="form-field 10th"/>
+                         <label for="12th">12th</label>
+						 <input type="checkbox"  name="qualification" id="12th" value="12th" class="form-field 12th">
+                         <label for="be">BE</label>
+						 <input type="checkbox" name="qualification" id="be" class="form-field be" value="BE">
+						 
+				</div>
+				
+				<div class="form">
+						<label for="city">City</label>
+						<select class="form-field city" name="city" id="city">
+						       <option value="" default>Select City</option>
+						       <option value="gulbarga">Gulbarga</option>
+							   <option value="chikmanglore">chikmanglore</option>
+						       <option value="bellari">bellari</option>
+						       <option value="bidar">bidar</option>
+						       <option value="hubli">hubli</option>
+						       <option value="bijapur">bijapur</option>
+						       <option value="banglore">banglore</option>
+							   <option value="bangalkote">Bagalkote</option>
+							   <option value="mysore">Mysore</option>
+						</select>
+				</div>
+                     
+                <div class="form">					 
+						<label for="state">State</label>
+						  <select class="form-field state" name="state" id="state">
+								<option vlaue="" default>Select State</option>
+								<option value="tamilnadu">Tamilnadu</option>
+								<option value="madaypradresh">Madaypradresh</option>
+								<option value="delhi">Delhi</option>
+								<option value="panjab">Panjab</option>
+								<option value="odisa">Odisa</option>
+								<option value="rajasthan">Rajasthan</option>
+						</select>
+					</div>	
+					<div class="form">	                                                               
+						 <label for="country">Country</label>
+						 <select class="form-field country" name="country" id="country">
+						        <option vlaue="" default>Select Country</option>
+								<option value="america">America</option>
+								<option  value="arab">Arab</option>
+								<option value="bangladesh">Bangladesh</option>
+								<option value="china">China</option>
+								<option value="denmark">Denmark</option>
+								<option value="egyept">Egyept</option>
+								<option value="kenya">kenya</option>
+								<option value="honknog">honknog</option>
+								<option value="india">India</option>
+								<option value="singapore">singapore</option>
+								<option value="maleshiya">maleshiya</option>
+						</select>
+                 </div>
+				 
+		  
+		          <div  class="form">
+				        <label for="file">Select file </label>
+						
+						<input type="file" name="myfile" class="form-field file" value="" id="file" /> 
+				 </div>
+
+				 
+					<div class="form">
+					     <label for="search">Search</label>
+					     <input type="search" name="search" class="form-field search" placeholder="search" id="search" />
+					</div>
+                    
+                    <div class="form">					
+				         <label for="submit">submit</label>
+						 
+					     <input type="submit" name="submit" id="submit" class="form-field submit" value="Submit" />
+					  </div>
+					</div>	
+              </form>
+           </div>
+        </div>
+      </div>
+    </div>
+  
+  </body>
+</html>
+  
